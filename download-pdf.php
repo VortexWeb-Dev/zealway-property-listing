@@ -55,7 +55,7 @@ $availability  = $property['ufCrm11Availability']  ?? "Unknown";
 $geopoints     = $property['ufCrm11Geopoints']     ?? null;
 
 // Company info
-$companyLogoPath = __DIR__ . "/assets/images/company-logo.webp";
+$companyLogoPath = __DIR__ . "/assets/images/company-logo.png";
 $companyName    = "ZealWay Properties";
 $companyAddress = "Office No. 403 Hamsah Building, Ansar Gallery, Al Karama, Dubai P.O Box - 27183";
 $companyWebsite = "https://zealwayproperties.com/";

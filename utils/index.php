@@ -386,7 +386,7 @@ function formatAgent($property)
     $xml .= formatField('name', $property['ufCrm11AgentName']);
     $xml .= formatField('email', $property['ufCrm11AgentEmail']);
     $xml .= formatField('phone', $property['ufCrm11AgentPhone']);
-    $xml .= formatField('photo', $property['ufCrm11AgentPhoto'] ?? 'https://youtupia.com/thinkrealty/images/agent-placeholder.webp');
+    $xml .= formatField('photo', $property['ufCrm11AgentPhoto'] ?? 'https://youtupia.com/thinkrealty/images/agent-placeholder.png');
     $xml .= '</agent>';
 
     return $xml;
@@ -865,11 +865,9 @@ function getUser($filter)
 function isAdmin($userId)
 {
     $admins = [
-        4, // Vortexweb  
-        14, // Abir Alsadek
-        16, // Raza Malik
-        22, // Mary Grace Esguerra
-        24, // Yves Wayne Laxamana
+        13, // Vortexweb  
+        1, // Afthab
+        49, // Rehan Shaikh
     ];
 
     return in_array($userId, $admins);

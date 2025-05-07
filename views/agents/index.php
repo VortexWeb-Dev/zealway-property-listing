@@ -89,7 +89,7 @@
                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 flex items-center space-x-2">
                         <img 
                             class="w-10 h-10 object-cover rounded-full" 
-                            src="${agent.ufCrm17AgentPhoto || './assets/images/agent-placeholder.webp'}" 
+                            src="${agent.ufCrm17AgentPhoto || './assets/images/agent-placeholder.png'}" 
                             alt="${agent.ufCrm17AgentName || 'Agent'}" />
                         <span>${agent.ufCrm17AgentName || 'Agent'}</span>
                     </td>
